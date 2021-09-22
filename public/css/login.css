@@ -1,0 +1,17 @@
+main{
+    text-align: center;
+    text-decoration: none;
+}
+
+main li{
+    list-style-type: none;      
+}
+form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

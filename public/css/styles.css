@@ -17,6 +17,18 @@ p{
     font-size: 12px;
 }
 
+.btn{
+    background-color: #0044AA; 
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
 div.top-header{
     display: flex;
     flex-wrap: wrap;
