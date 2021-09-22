@@ -64,17 +64,15 @@ header ul li a{
 
 header .form .input{
     background-color: #FFF;
-    border: 1px solid #000;
-    outline: none;
     color: #666;
-    padding: 2px;
-}
+   }
 
 header .form .submit{
     background-color: #FFF;
-    border: 1px solid #000;
     color: #666;
     width: 10%;
+    text-align: center;
+    height: 12%;
 }
 
 div.burger-menu{
@@ -185,8 +183,6 @@ article:hover .description{
     
 }
 
-
-
 article:hover .fa-truck{
     transform: rotate(-90deg);
     transition: 1s;
@@ -242,12 +238,40 @@ nav{
     }
 }
 
+    article:hover .description{
+        display: block;
+        
+    }
+
+    article:hover .fa-truck{
+        transform: rotate(-90deg);
+        transition: 1s;
+    }
+    nav{
+        display: none;
+    }
+
+    .search-bar{
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .footer article:hover i{
+        color:#000;
+    }
+
 @media (min-width: 769px){
     main section div.products article{
         width: 22%;
     }
     .burger-menu{
         display: none;
+    }
+    .top-header .form .input,
+    .top-header .form .submit{
+        border: none;
+        outline: none;
     }
     .main-navbar{
         visibility: visible;
@@ -270,6 +294,19 @@ nav{
         padding: 0px 5px 10px 5px;
     }
 
+    header .form .input{
+        background-color: #FFF;
+        color: #666;
+        
+    }
+    
+    header .form .submit{
+        background-color: #FFF;
+        color: #666;
+        width: 10%;
+        text-align: center;
+        height: 12%;
+    }
     .footer {
         text-align: center;
         display: flex;
@@ -286,4 +323,11 @@ nav{
         font-size: 5px;
         padding-top: 5px;
     }
+
+    article .description{
+        display: block;
+        
+    }
+
+
 }
